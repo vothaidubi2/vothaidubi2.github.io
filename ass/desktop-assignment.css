@@ -1,0 +1,482 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{  
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 18px;
+    font-size: 14px;
+    list-style: none;
+    margin-top: 50px;
+}
+.navbar{
+    background-color: #111111;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+.logo  img{
+    width: 7%;
+    height: 7%;
+    float: left;
+    margin-top: 3px;
+    margin-left:30px ;
+}
+.logo .bt-ic{
+    color: #444;
+    margin: 30px 0 17px 5px;
+    float: left;
+}
+.logo:hover .bt-ic{
+    color: white;
+}
+
+.menu-l1{
+    float: left;
+    margin: 10px 40px 2px 30px;
+    
+}
+.menu-l1 a{
+    color: rgb(194, 194, 194);
+}
+.cl1{
+    list-style: none;
+    float: left;
+    margin:10px 20px;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: .025em;
+}
+.cl1:hover{
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.cl1:hover .tt-l1{
+    color: white;
+}
+.tt-l1{
+    display: inline-block;
+    padding: 10px;
+}
+.cl1:hover .menu-l2{
+    display: block;
+}
+.menu-l2{
+    border-top: 4px solid #D13639;
+    position: absolute;
+    background-color: white;
+    text-align: left;
+    border-radius: 2px;
+    font-size: 11px;
+    background-color: #222;
+    opacity: 0.9;
+    letter-spacing: .025em;
+    font-weight: 600;
+    display: none;
+}
+.cl2{
+    width: 180px;
+    margin: 20px 28px;
+    display: block;
+}   
+.menu-l2 a{
+    color: #bbb;
+    width: 100%;
+    padding: 7px 7px 5px 7px ;
+    display: flex;
+}
+.cl2:hover a{
+    color: white;
+}
+.menu-l2 .tt-l2:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+.cl1-log{
+    margin: 15px 40px 0 0;
+    float: right;
+    padding: 10px 15px 0 15px;
+    background-color: #D13639;
+    border-radius: 24px;
+}
+.bt-ic{
+    color: #444;
+    display: inline-block;
+}
+.cl1:hover .bt-ic{
+    color: white;
+}
+
+.cl1-log-bt{
+    color: black;
+    padding: 5px 15px 12px 15px;
+    display: inline-block;
+    font-weight: 600;
+}
+.cl1-log:hover{
+    background-color: #ff4f52;
+}
+.cl1-log:hover .cl1-log-bt{
+    color: white;
+    opacity: 0.8;
+}
+/* sc */
+.sc {
+    background-image: url(https://www.riotgames.com/darkroom/2000/68ccf8b69d1d664b4bb87e5b83cbe77e:88951d0111c7d9491fda64b72f7e576c/lol-ka22-bg-web-3830x1644-jcao-v001.jpg);
+    height: 780px;
+    zoom: 78%;
+    max-width: 100%;
+}
+.msk{
+    background-color: rgba(0,0,0,0.4);
+    height: 100%;
+}
+.ct{
+    margin-left: 150px;
+}
+.ct img{
+    width: auto;
+    height: auto;
+}
+.sc-tt{
+    color: white;
+    font-size: 36px;
+    margin-top: 40px;
+}
+.sc .ct a{
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: .025em;
+    margin-top: 70px;
+    background-color: #D13639;
+    border: 0;
+    padding: 20px;
+    border-radius: 24px;
+    cursor: pointer;
+    margin-left: 100px;
+    color: white;
+}
+.sc .ct a:hover{
+    box-shadow: 0 10px 45px -10px rgba(236, 61, 61, 0.45)
+    , 0 0 20px -10px rgba(247, 73, 73, 0.35)
+    , 0 10px 30px -10px rgba(238, 63, 63, 0.45);
+}
+.ct a{
+    margin: 0;
+    color: white;
+    display: inline-block;
+}
+
+
+.news{
+    background-image: linear-gradient(to right, #200e0e, #000000);
+    height: 800px;
+    z-index: 1;
+    
+}
+.news-tt{
+    margin: 110px 50px 80px 90px;
+    color: white;
+    font-size: 44px;
+    float: left;
+}
+.news .link-news{
+    float: right;
+}
+.news #link-news{
+    display: inline-block;
+    color: #bbb;
+    padding: 6px 12px 5px 12px;
+    background-color: #222;
+    border: 0;
+    border-radius: 10px;
+    margin: 110px 90px 70px 0;
+    font-weight: 600;
+    letter-spacing: .025em;
+}
+.news #link-news:hover{
+    color: white;
+    background-color: #555;
+}
+.news-cnt{
+    
+    margin-top: 200px;
+    margin: 0 90px; 
+}
+.news-cnt-1{
+    float: left;
+    width: 52%;
+    border-radius: 10px;
+}
+.news-cnt-1-img{
+    border-radius: 7px;
+}
+.news-cnt-left{
+    position: relative;
+}
+.news-cnt-1-dc,.news-cnt-1-dc2{
+    position: absolute;
+    margin: 270px 0 40px 30px;
+    font-size: 30px;
+    font-weight: 600;
+    max-width: 90%;
+    line-height: 1.2;
+    color: #999;
+}
+.news-cnt-1:hover .news-cnt-1-dc{
+    color: white;
+}
+.news-cnt-1-dc2{
+    margin: 350px 0 40px 30px;
+    font-size: 16px;
+    color: #999;
+}
+.news-cnt-2{
+    float: right;
+    width: 45%;
+    border-radius: 10px;
+}
+.news-cnt-2{
+    display: block;
+}
+.news-cnt-right{
+    position: relative;
+}
+.right-1{
+    float: left;
+    width: 100%;
+    background-color: rgb(26, 23, 23);
+    height: 120px;
+    border-radius: 10px;
+}
+.news-cnt-right-1 img{
+    float: right;
+    width: 40%;
+    border-radius: 10px;
+    height: 120px;
+}
+.news-cnt-2-dc,.news-cnt-2-dc2{
+    position: absolute;
+    margin: 25px 0 40px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    max-width: 55%;
+    line-height: 1.2;
+    color: #999;
+    letter-spacing: .025em;
+}
+.news-cnt-right-1:hover .news-cnt-2-dc{
+    color: white;
+}
+.news-cnt-2-dc2{
+    margin: 80px 0 40px 20px;
+    font-size: 14px;
+    color: #999;
+}
+#right-1{
+    margin-top: 10px;
+}
+
+
+.games{
+    background-color: #1F1F1F;
+    overflow: auto;
+    height: 1100px;
+    z-index: 1;
+}
+.games-list-1{
+    margin: 0 90px; 
+}
+.games .news-tt{
+    width: 70%;
+}
+.gl1-g1{
+    float: left;
+    width: 49.3%;
+    
+}
+.gl1-g2{
+    float: right;
+    width: 49.3%;
+}
+.g1-left{
+    position: relative;
+}
+.g1-left-dc,.g1-left-img{
+    position: absolute;
+    margin: 200px 0 40px 30px;
+    font-size: 14px;
+    font-weight: 600;
+    max-width: 25%;
+    line-height: 1.2;
+    text-align: center;
+    color: #999;
+}
+.g1-left-img{
+    margin: 70px 0 40px 30px;
+    width: auto;
+    height: auto;
+}
+#g1-left-img-2{
+    margin: 50px 0 40px 30px;
+    width: auto;
+    height: auto;
+}
+.g1-left:hover {
+    border-radius: 7px;
+    border-bottom: 3px solid #999;
+}
+.g1-left:hover .g1-left-dc{
+    color: white;
+}
+.games-list-2{
+    margin: 0 90px;
+}
+.gl2-g1{
+    display: inline-block;
+    width: 32%;
+    margin: 40px 0 10 0;
+}
+#gl2-g2{
+    margin: 40px 22px 0 22px;
+}
+.games-list-3{
+    margin: 0 90px;
+}
+
+
+.rk{
+    height: 600px;
+}        
+.rk-cnt{
+    float: left;
+    width: 45%;
+    position: absolute;
+}
+.rk-tt{
+    font-size: 48px;
+    text-align: center;
+    margin: 80px 0 30px 110px;
+    line-height: 1.2;
+}
+.rk img{
+    float: right;
+    top: 0;
+    width: 50%;
+    height: 585px;
+}
+.rk-dc{
+    text-align: center;
+    margin: 0 0 50px 180px;
+    max-width: 430px;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: bolder;
+    color: #555;
+}
+.rk-btl1{
+    margin-left: 150px;
+    position: relative;
+}
+.bt-ic-a{
+    float: left;
+    border: 0;
+    border-radius: 10px;
+    text-align: center;
+    width: 240px;
+    height: 120px;
+    padding: 10px 30px 20px 30px;
+    background-color: #DFDEDE;
+    color: #000000;
+    font-size: 52px;
+    line-height: 1.2;
+    font-weight: bold;
+}
+.bt-ic-a span{
+    color: #656462;
+    font-size: 24px;
+    font-weight: 600;
+    display: block;
+}
+.rk-btl2{
+    float: right;
+    margin-right: 30px;
+}
+.rk .bt-ic-a2{
+    display: block;
+    font-size: 22px;
+    text-align: center;
+    margin: 200px 150px 30px 250px;
+    font-weight: 700;
+    line-height: 1.2;
+    padding: 20px 30px;
+    background-color: #D1363A;
+    color: white;
+    border: 0;
+    border-radius: 24px;
+}
+.rk .bt-ic-a2:hover{
+    color: rgb(202, 200, 200);  
+    background-color: #d14045;          
+    box-shadow: 0 10px 45px -10px rgba(226, 24, 24, 0.45)
+    , 0 0 20px -10px rgba(230, 24, 24, 0.35)
+    , 0 10px 30px -10px rgba(224, 23, 23, 0.45);
+}
+.rk .bt-ic-a:hover{
+    background-color: rgb(233, 233, 233);
+}
+
+
+footer{
+    background-color: #252423;
+    color: white;
+    height: 150px;
+}
+.footer-logo-riot{
+    float: left;
+    width: 90px;
+    height: 30px;
+    margin: 10px 30px 0px 30px;
+}
+.footer-cnt{
+    margin-right: 20px;
+}
+.footer-cnt-tt{
+    display: inline-block;
+    font-size: 12px;
+    color: #656462;
+    margin: 35px 20px 20px 0;
+    font-weight: 600;
+    letter-spacing: .0,25em;
+}
+.footer-logo-ic{
+    display: inline-block;
+    margin-left: 100px;
+}
+.footer-logo-link{
+    margin-left: 20px;
+    color: #656462;
+}
+.footer-cnt-tt:hover{
+    color: white;
+    text-decoration: underline;
+}
+.footer-logo-link:hover{
+    color: #D13639;
+}
+.footer-cnt-2{
+    color: #656462;
+    font-size: 10px;
+    margin: 10px 150px;
+}
